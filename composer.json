@@ -1,0 +1,27 @@
+{
+  "name": "histomagento/module-delete-account",
+  "description": "Magento 2's module for allow customer delete account in their dashboard ",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Alexis AOL OLIVE",
+      "email": "alexis-olive@live.fr",
+      "homepage": "https://alexis-olive-developpeur.fr",
+      "role": "Developper"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "magento/framework": "~103.0.6"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magento\\SampleNewPage\\": ""
+    }
+  }
+}
