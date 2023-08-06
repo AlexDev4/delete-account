@@ -1,0 +1,10 @@
+<div>
+    <h2>Delete Account Confirmation</h2>
+    <p>Are you sure you want to delete your account?</p>
+    <form action="<?php echo $block->getUrl('deletingaccount/account/delete'); ?>" method="post">
+        <?php echo $block->getBlockHtml('formkey'); ?>
+        <button type="submit" title="Delete Account" class="action delete">
+            <span>Delete Account</span>
+        </button>
+    </form>
+</div>
