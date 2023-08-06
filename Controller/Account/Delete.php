@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Histomagento\DeletingAccount\Controller\Account;
 
 use Magento\Framework\App\ActionInterface;
@@ -20,9 +19,7 @@ class delete implements ActionInterface
     protected $resultRedirectFactory;
     protected $messageManager;
     protected $_customerSession;
-
     protected $registry;
-
     protected $messageInterface;
     protected $transportInterface;
 
