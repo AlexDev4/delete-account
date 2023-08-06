@@ -1,5 +1,5 @@
 {
-  "name": "histomagento/DeletingAccount",
+  "name": "histomagento/deletingaccount",
   "description": "Magento 2's module for allow customer delete account in their dashboard ",
   "type": "magento2-module",
   "version": "1.0.0",
